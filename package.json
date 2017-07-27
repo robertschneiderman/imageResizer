@@ -1,0 +1,17 @@
+{
+  "name": "imageresizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "re": "./node_modules/sharp/vendor index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.18.2"
+  },
+  "bin": {
+    "myResize": "bin/myResize.js"
+  }  
+}
